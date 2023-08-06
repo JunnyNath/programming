@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Arial Unicode Ms", sans-serif;
+}
+
+.Navbar-container {
+  max-width: 1366px;
+  background-color: #fff;
+}
+
+.nav-padding { 
+  display: flex;
+  flex-direction: row;
+  padding: 0.3em 6vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-list li {
+  margin-left: 2rem;
+  font-weight: bold;
+}
+.Name {
+  color: green;
+}
+.nav-list .active {
+  color: green;
+}
+.nav-button {
+  width: 90px;
+  height: 30px;
+  color: #fff;
+  background: green;
+  border: none;
+  border-radius: 4px;
+}
+.nav-button:hover {
+  filter: brightness(15);
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: url(http://127.0.0.1:5500/js-basics/background.png);
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  padding: 0.3em 6vw;
+}
+
+.bg-container h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+.bg-container p {
+  font-size: 1.3rem;
+  width: 50%;
+  color: #fff;
+}
+.bg-container span {
+  color: green;
+}
+.bg-container .bg-button {
+  width: 90px;
+  height: 40px;
+  color: #fff;
+  background: green;
+  border: none;
+  border-radius: 4px;
+}
+.bg-container .bg-button:hover {
+  filter: brightness(0.8);
+}
+@media (max-width:630px){
+  .Navbar-container .nav-padding .Name{
+    font-size: 1.4rem;
+    width: 40%;
+  }
+  .info-container .flex .top-container p{
+    width: 90% !important;
+  }
+  .bg-container{
+    height: 80vh;
+  }
+  .bg-container h1{
+    font-size: 2rem;
+  }
+  .bg-container p{
+    font-size: 1.2rem;
+  }
+  .services-container{
+    flex-direction: column;
+  }
+  .services-container div{
+    text-align: center;
+    list-style: none;
+  }
+  .footer-container{
+    padding: 1em 4vw !important;
+  }
+  .footer-container .footer-align .footer-services{
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+  .footer-container .footer-align .footer-services .svg{
+    width: 20% !important;
+  }
+  .footer-container .footer-align .footer-services ul li{
+    font-size: 0.9rem;
+  }
+  .footer-container .footer-align .footer-services .span{
+    width: 200% !important;
+    font-size: 0.9rem;
+  }
+}
+.services-container {
+  padding: 4rem 10vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 4rem;
+}
+
+.services-container div button {
+  width: 90px;
+  height: 30px;
+  color: #fff;
+  background: green;
+  border: none;
+  border-radius: 4px;
+}
+
+.services-container img {
+  width: 400px;
+  transition: all 0.3s ease-in-out;
+}
+.services-container div p {
+  font-size: 1em;
+  opacity: 1;
+}
+.info-container {
+  background-color: rgb(227, 255, 246);
+  padding: 2em 10vw;
+}
+.info-container .Us {
+  text-align: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+}
+.info-container .flex .top-container {
+  border: 2px solid green;
+  border-radius: 14px;
+  padding: 1em;
+}
+.info-container .flex .top-container p{
+  width: 50%;
+}
+.info-container .Executives {
+  text-align: center;
+}
+@media (max-width: 830px) {
+  .Navbar-container .nav-padding .nav-list {
+    visibility: hidden;
+  }
+
+  .workers-container {
+    padding: 0.3em 10vw;
+  }
+  .workers-container .seperate {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+.workers-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.workers-container .seperate .workers {
+  width: 150px;
+}
+.workers-container .seperate {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.workers-container .seperate p {
+  text-align: center;
+  opacity: 0.8;
+  font-size: 0.9em;
+}
+.workers-container .seperate h5 {
+  text-align: center;
+  font-weight: bolder;
+}
+.Email-container {
+  background-color: #fff;
+  padding: 4em 10vw;
+}
+.Email-container .Email-head {
+  text-align: center;
+}
+.Email-container .space {
+  padding: 1em 10vw;
+}
+.Email-container .contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1.5em;
+}
+.Email-container .press {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Email-container .contact-container .email {
+  border: 2px solid green;
+  width: 500px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.Email-container .contact-container #Msg {
+  height: 100px;
+}
+
+.Email-container .press .email-button {
+  width: 150px;
+  height: 30px;
+  color: #fff;
+  background: green;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+}
+.Email-container .press .email-button:hover {
+  filter: brightness(15);
+}
+.footer-container {
+  background-color: green;
+  padding: 2em 10vw;
+  padding-top: -25rem;
+}
+.footer-container .footer-align {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.footer-container .footer-align .footer-services {
+  color: #fff;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.footer-container .footer-align .footer-services .span {
+  width: 50%;
+}
+.footer-container .footer-align .footer-services .svg {
+  width: 30px;
+}

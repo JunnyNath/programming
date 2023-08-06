@@ -1,0 +1,82 @@
+.toggler{
+      background-color: #fff;
+
+}
+
+.bg-dark{
+    background-color: black;
+}
+
+.main{
+    background-color: rgb(228, 222, 222); 
+    margin-bottom: 4rem;
+    padding:0.1em ;
+}
+.title{
+    text-align: center;
+   
+}
+.container{
+    background-color: rgb(228, 222, 222);
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 13rem;
+    margin-right: 12rem;
+    margin-left: 8rem;
+    border-radius: 5px;
+    
+
+}
+
+.title{
+    font-family: 'Mulish' , sans-serif;
+    font-weight: 500px;
+}
+.files h1{
+    font-size: 20px;
+    font-family: 'Mulish' , sans-serif;
+    font-weight: 400px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish' , sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0.6em;
+}
+ .sheet{
+    border: 2px solid black;
+    padding-left: 9rem;
+    
+}
+.btn{
+    background-color: black;
+    margin-top: 0.5em;
+    color: white;
+    padding-left: 9rem;
+    padding-right: 8.2rem;
+
+}
+.btn :hover{
+    background-color: rgb(228, 222, 222) ;
+    color: black;
+}
+
+.items {
+    background-color:rgb(228, 222, 222) ;
+    margin-right: 8em;
+    margin-left: 9em;
+    font-family: 'Mulish' , sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.error{
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
