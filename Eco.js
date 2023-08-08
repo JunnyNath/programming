@@ -1,4 +1,4 @@
-const sevice = document.querySelector("services-container");
+const sevice = document.querySelector(".services-container");
 const text = document.querySelector(".Name");
 
 
