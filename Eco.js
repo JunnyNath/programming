@@ -1,6 +1,12 @@
-const sevice = document.querySelector(".services-container");
 const text = document.querySelector(".Name");
-
-
-sevice.remove();
+const butt = document.querySelector(".nav-button");
+const email = document.querySelector(".Email-container"); 
+    
+    
 text.style.color = "red";
+text.innerHTML = 'Excavator'
+
+
+butt.style.background = "blue";
+
+email.style.background = "yellow";
