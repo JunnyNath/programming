@@ -228,6 +228,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+.Email-container .contact-container .prompt{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
 .Email-container .contact-container .email {
   border: 2px solid green;
   width: 500px;

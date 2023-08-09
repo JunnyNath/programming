@@ -1,12 +1,21 @@
-const text = document.querySelector(".Name");
-const butt = document.querySelector(".nav-button");
-const email = document.querySelector(".Email-container"); 
-    
-    
-text.style.color = "red";
-text.innerHTML = 'Excavator'
+const myform = document.querySelector(".Email-container");
+const standby = document.querySelector(".prompt");
+const emailInput = document.querySelector("#email");
+const nameInput = document.querySelector("#Name");
+const msg = document.querySelector("#Msg");
+const butt = document.querySelector(".email-button");
 
+butt.addEventListener("click", onSubmit);
 
-butt.style.background = "blue";
+function onSubmit(e) {
+  e.preventDefault();
 
-email.style.background = "yellow";
+  if (emailInput.value === "" || nameInput.value === "" || msg.value === "") {
+    standby.style.color = "red";
+    standby.innerHTML = "please enter all fields";
+
+    setTimeout(() => standby.remove(), 2000);
+  } else {
+    alert("successful");
+  }
+}
