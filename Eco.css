@@ -97,12 +97,23 @@ body {
   .bg-container p{
     font-size: 1.2rem;
   }
-  .services-container{
-    flex-direction: column;
+  .services-container img{
+    max-width: 300px;
+    height: 200px;
   }
   .services-container div{
     text-align: center;
     list-style: none;
+    font-size: 0.9em;
+  }
+  /* .workers-container .seperate p{
+    font-size: 0.7em;
+  } */
+  .workers-container .seperate .workers{
+    max-width: 100px;
+  }
+  .info-container .flex .top-container{
+    font-size: 0.9em;
   }
   .footer-container{
     padding: 1em 4vw !important;
@@ -187,7 +198,7 @@ body {
 .workers-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .workers-container .seperate .workers {
   width: 150px;
