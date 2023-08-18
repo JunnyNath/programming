@@ -8,7 +8,7 @@ const formEl = document.getElementById("form");
 
 const inputEl = document.getElementById("input");
 
-const scoreEl = document.getElementsById("score");
+const scoreEl = document.getElementById("score");
 
 
 let score = JSON.parse(localStorage.getItem("score"));
